@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Auto Designs | Booking Form</title>
+     <meta name="description" content="Request a personalised quote for your custom car project. Tell us about your vehicle and vision — Apex Auto Designs will respond with pricing and availability.">
+<meta name="keywords" content="custom car quote, car build pricing Johannesburg, get a quote custom car">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+        <h1>APEX AUTO DESIGNS</h1>
+        <p>Your one-stop solution for custom car builds</p>
+    </header>
+
+    <!--Main Content-->
+    <main>
+        <h2>Booking Form</h2>
+        <form id="sampleform" onsubmit="return validateForm()">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="1" max="120" required>
+
+            <label for="carBrand">Car Brand:</label>
+            <select id="carBrand" name="carBrand" required>
+                <option value="">Select a brand</option>
+                <option value="bmw">BMW</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="carDesign">Car Design:</label>
+            <select id="carDesign" name="carDesign" required>
+                <option value="">Select a design</option>
+                <option value="sporty">Sporty</option>
+                <option value="luxury">Luxury</option>
+                <option value="classic">Classic</option>
+                <option value="other">Other</option>
+            </select>
+
+            <input type="submit" value="Submit">
+
+        </form>
+        <p id="errorMsg" class="error"></p>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; Apex Auto Designs. All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

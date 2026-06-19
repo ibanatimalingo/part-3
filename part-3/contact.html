@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Apex Auto Designs Services – custom builds, wraps, restorations, and more." />
+  <title>Services | Apex Auto Designs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container nav-container">
+      <div class="logo">APEX <span>AUTO</span> DESIGNS</div>
+      <nav id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="menuToggle">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>OUR SERVICES</h1>
+      <p>From concept to completion — we do it all.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services-section">
+    <div class="container">
+
+      <!-- DESIGN SERVICES -->
+      <h2 class="section-title">DESIGN SERVICES</h2>
+      <span class="divider"></span>
+      <p class="section-subtitle">Where every build begins — on paper.</p>
+      <div class="services-grid" style="margin-bottom: 4rem;">
+        <div class="service-card">
+          <h3>✏️ CONCEPT DESIGN</h3>
+          <p>Our designers collaborate with you to produce detailed sketches and 3D renders of your dream vehicle before a single panel is touched.</p>
+          <span class="service-price">FROM R15,000</span>
+        </div>
+        <div class="service-card">
+          <h3>🎨 LIVERY & WRAP DESIGN</h3>
+          <p>Bold graphics, racing liveries, or subtle elegance — we design and apply premium vinyl wraps tailored to your style.</p>
+          <span class="service-price">FROM R8,000</span>
+        </div>
+        <div class="service-card">
+          <h3>🖥️ INTERIOR REDESIGN</h3>
+          <p>Custom upholstery, bespoke dashboard layouts, and premium finishes that make your cockpit as stunning as your exterior.</p>
+          <span class="service-price">FROM R20,000</span>
+        </div>
+        <div class="service-card">
+          <h3>💡 LIGHTING CUSTOMISATION</h3>
+          <p>Sequential indicators, ambient cabin lighting, custom LED strips and projector headlights — we light up your build.</p>
+          <span class="service-price">FROM R6,000</span>
+        </div>
+      </div>
+
+      <!-- BUILD SERVICES -->
+      <h2 class="section-title">BUILD SERVICES</h2>
+      <span class="divider"></span>
+      <p class="section-subtitle">Fabricated and finished in our Johannesburg studio.</p>
+      <div class="services-grid" style="margin-bottom: 4rem;">
+        <div class="service-card">
+          <h3>🔧 FULL CUSTOM BUILD</h3>
+          <p>The flagship Apex experience — a ground-up custom vehicle built entirely to your specification, from chassis to clear coat.</p>
+          <span class="service-price">FROM R250,000</span>
+        </div>
+        <div class="service-card">
+          <h3>🏎️ BODY KIT FABRICATION</h3>
+          <p>Wide-body conversions, custom splitters, diffusers, and aero kits — engineered for form and function.</p>
+          <span class="service-price">FROM R35,000</span>
+        </div>
+        <div class="service-card">
+          <h3>🛠️ RESTORATION</h3>
+          <p>Bring a classic back to life — or better. We restore and modernise classic vehicles with period-correct detail or modern upgrades.</p>
+          <span class="service-price">FROM R80,000</span>
+        </div>
+        <div class="service-card">
+          <h3>💨 PERFORMANCE UPGRADES</h3>
+          <p>Engine tuning, suspension setups, brake upgrades, and exhaust systems — optimised for the road or the track.</p>
+          <span class="service-price">FROM R12,000</span>
+        </div>
+      </div>
+
+      <!-- FINISHING -->
+      <h2 class="section-title">FINISHING</h2>
+      <span class="divider"></span>
+      <p class="section-subtitle">The details that make the difference.</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>🖌️ CUSTOM PAINT</h3>
+          <p>Single-stage, multi-stage, pearlescent, matte, satin, or candy — our paint team delivers flawless finishes every time.</p>
+          <span class="service-price">FROM R18,000</span>
+        </div>
+        <div class="service-card">
+          <h3>🛡️ PAINT PROTECTION FILM</h3>
+          <p>Self-healing PPF applied with precision to preserve your finish and protect against stone chips and scratches.</p>
+          <span class="service-price">FROM R10,000</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<!--Header-->
+    <header>
+        <h1>APEX AUTO DESIGNS</h1>
+        <p>Your one-stop solution for form validation</p>
+    </header>
+    <!--Main Content-->
+    <main>
+        <h2>Sample Form</h2>
+        <form id="sampleform" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="1" max="120" required>
+
+            <input type="submit" value="Submit">
+
+        </form>
+        <p id="errorMsg" class="error"></p>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p>&copy; Apex Auto Designs. All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>NOT SURE WHERE TO START?</h2>
+      <p>Talk to our team — we'll guide you through the entire process.</p>
+      <a href="contact.html" class="btn btn-primary">Get A Free Consultation</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-container">
+      <div class="logo">APEX <span>AUTO</span> DESIGNS</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">&copy; 2026 Apex Auto Designs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

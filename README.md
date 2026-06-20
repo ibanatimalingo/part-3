@@ -8,8 +8,7 @@ A custom car design studio website for **Apex Auto Designs**, built with HTML, C
 ---
 
 ## 🌐 Live Site
-
-> Add your deployed link here once published (e.g. Netlify, GitHub Pages):
+https://ibanatimalingo.github.io/part-3/
 > `https:/ibanatimalingo5@gmail.com.github.io/apex-auto-designs/`
 
 ---
